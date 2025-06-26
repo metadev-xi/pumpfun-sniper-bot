@@ -154,8 +154,6 @@ Create a `.env` file with the following variables:
 ```env
 # RPC Endpoints
 SOLANA_RPC_URL=https://your-solana-rpc.com
-ETHEREUM_RPC_URL=https://your-ethereum-rpc.com
-BSC_RPC_URL=https://your-bsc-rpc.com
 
 # Database
 DATABASE_URL=postgresql://user:pass@localhost:5432/sniper_db
@@ -163,7 +161,6 @@ REDIS_URL=redis://localhost:6379
 
 # API Keys
 COINGECKO_API_KEY=your_coingecko_key
-MORALIS_API_KEY=your_moralis_key
 
 # Security
 ENCRYPTION_KEY=your_encryption_key
@@ -392,7 +389,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - [Solana Foundation](https://solana.org)
-- [Ethereum Foundation](https://ethereum.org)
 - [Pump.fun Team](https://pump.fun)
 - [Raydium Protocol](https://raydium.io)
 - [Jupiter Aggregator](https://jup.ag)
